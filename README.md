@@ -19,5 +19,7 @@ sudo apt install nuclei
 
 ## Usage
 
+chmod +x ./run.sh
+
 ./run.sh target.com
 
