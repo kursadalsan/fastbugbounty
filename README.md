@@ -21,5 +21,3 @@ sudo apt install nuclei
 
 ./run.sh target.com
 
-# NOTE:
-### Scan Directroy is ~/Desktop/scanfast/
