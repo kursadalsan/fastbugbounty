@@ -23,7 +23,7 @@ git clone https://github.com/kursadalsan/fastbugbounty.git
 
 cd fastbugbounty
 
-chmod +x ./run.sh
+chmod +x run.sh
 
 ## Usage
 
