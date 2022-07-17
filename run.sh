@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cd ~/Desktop/
-mkdir scanfast
+mkdir -p scanfast
 cd ~/Desktop/scanfast/
 mkdir $1 
 cd $1
