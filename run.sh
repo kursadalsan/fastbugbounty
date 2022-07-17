@@ -2,6 +2,8 @@
 
 mkdir $1 
 cd $1
-amass enum -passive -d $1 > subs.txt
+amass enum -passive -d $1 > 1.txt
+subfinder -d $1 -silent > 2.txt
+cat *.txt > all.txt
 httpx-toolkit -l subs.txt -o http-subs.txt
 nuclei -t cves/ -t exposures/ -l http-subs.txt
