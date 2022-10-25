@@ -5,7 +5,7 @@ Fast Bug Bounty Script
 
 ## Please Install below tools before use this script.
 
-### httpx-toolkit (if you have as httpx , no need to install)
+### httpx-toolkit
 
 sudo apt install httpx-toolkit
 
